@@ -2,7 +2,7 @@
 
 Make sure that your system has essential dependencies such as npm, python, make, and anything specific to your config.
 
-##Installation
+## Installation
 First install neovim
 
 ```shell
@@ -30,7 +30,7 @@ Install TPM for tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-Trigger install by pressing <prefix>+I in a tmux session
+Trigger install by pressing prefix+I in a tmux session
 
 Install oh-my-zsh
 
@@ -43,3 +43,7 @@ Install powerlevel10k
 ```shell
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
+Set theme in .zshrc to be powerlevel10k 
+```ZSH_THEME="powerlevel10k/powerlevel10k"```
+
+Install and the dot files into your root directory and update to meet your preferences
