@@ -19,7 +19,8 @@ null_ls.setup({
 		--  "formatting.prettier.with({disabled_filetypes: {}})" (see null-ls docs)
 		formatting.prettier, -- js/ts formatter
 		formatting.stylua, -- lua formatter
-		formatting.clang_format,
+		formatting.clang_format, -- C/C++ formatting
+		formatting.rustfmt, -- rust formatting
 		-- diagnostics.pylint.with({
 		-- 	diagnostics_postprocess = function(diagnostic)
 		-- 		diagnostic.code = diagnostic.message_id

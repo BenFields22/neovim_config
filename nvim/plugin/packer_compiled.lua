@@ -245,6 +245,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/benfields/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  vimspector = {
+    loaded = true,
+    path = "/Users/benfields/.local/share/nvim/site/pack/packer/start/vimspector",
+    url = "https://github.com/puremourning/vimspector"
   }
 }
 

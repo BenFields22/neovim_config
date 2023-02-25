@@ -30,3 +30,12 @@ opt.iskeyword:append("-")
 -- vg["python3_host_prog"] = "/Users/benfields/miniconda3/envs/torch/bin/python3"
 -- vg["python_host_prog"] = "/Users/benfields/miniconda3/envs/torch/bin/python"
 -- env["VIRTUAL_ENV"] = "/Users/benfields/miniconda3/envs/torch/"
+vg.vimspector_enable_mappings = "HUMAN"
+vg.vimspector_install_gadgets = {
+	"debugpy",
+	"vscode-go",
+	"CodeLLDB",
+	"vscode-node-debug2",
+	"local-lua-debugger-vscode",
+}
+vim.cmd([[packadd! vimspector]])

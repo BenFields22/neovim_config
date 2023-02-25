@@ -57,3 +57,11 @@ keymap.set("n", "<leader>bn", ":bn<CR>") --  go to next tab
 keymap.set("n", "<leader>bp", ":bp<CR>") --  go to previous tab
 keymap.set("n", "<tab>", ":bn<CR>") --  go to previous tab
 keymap.set("n", "<S-tab>", ":bp<CR>") --  go to previous tab
+
+-- vimspector
+keymap.set("n", "<leader>dx", ":VimspectorReset<CR>") --  go to previous tab
+keymap.set("n", "<leader>di", "<Plug>VimspectorStepInto<CR>") --  go to previous tab
+keymap.set("n", "<leader>do", "<Plug>VimspectorStepOver<CR>") --  go to previous tab
+keymap.set("n", "<leader>dt", "<Plug>VimspectorStepOut<CR>") --  go to previous tab
+keymap.set("n", "<F1>", "<Plug>VimspectorStepInto<CR>") --  go to previous tab
+keymap.set("n", "<F2>", "<Plug>VimspectorStepOut<CR>") --  go to previous tab
