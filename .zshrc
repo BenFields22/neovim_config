@@ -18,6 +18,7 @@ export VK_ICD_FILENAMES="$VULKAN_SDK/share/vulkan/icd.d/MoltenVK_icd.json"
 export VK_LAYER_PATH="$VULKAN_SDK/share/vulkan/explicit_layer.d"
 export PATH="$VULKAN_SDK/bin:$PATH"
 export PATH="/Applications/CMake.app/Contents/bin":"$PATH"
+export PATH="$HOME/go/bin/:$PATH"
 export TERM=xterm-256color
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -93,7 +94,6 @@ plugins=(
    )
 
 source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -125,8 +125,9 @@ alias tk="tmux kill-session -t"
 alias tl="tmux ls"
 alias tat="tmux a -t"
 alias term="open -a Terminal ."
-alias f='nvim "$(fzf)"'
+alias f='source f_script'
 alias vim="nvim"
+alias fcd="source fcd_script"
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
